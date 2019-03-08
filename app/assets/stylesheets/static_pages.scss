@@ -10,6 +10,44 @@
 
 }
 
-body {
-  background-color: lightgrey;
+
+
+.about-paragraph {
+  color: white;
+  background-color: red;
+  margin: 5px;
+  padding: 10px;
 }
+
+#navbar {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.nav-item {
+display: inline-block;
+margin: 0 9%;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  background-color: #48A51A;
+  padding: 5px;
+  font-size: 1.2rem;
+   transition-duration: 500ms;
+}
+
+.nav-item a:hover{
+  color: #48A51A;
+  background-color: white;
+  font-size: 1.4rem;
+  transition-duration: 500ms;
+
+
+#about-img  {
+  width: 30%;
+  margin: 0 5px;
+  float: right;}
