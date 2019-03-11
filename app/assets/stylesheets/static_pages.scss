@@ -10,6 +10,12 @@
 
 }
 
+body {
+  background-image: url("test-background.img");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  margin: 0, 5px;
+}
 
 
 .about-paragraph {
@@ -46,8 +52,11 @@ margin: 0 9%;
   font-size: 1.4rem;
   transition-duration: 500ms;
 
+}
+
 
 #about-img  {
   width: 30%;
   margin: 0 5px;
-  float: right;}
+  float: right; 
+}
